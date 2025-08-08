@@ -1,0 +1,24 @@
+📌 Resumen visual (modo ficha)
+📂 Proyecto: Modelo de Datos Instagram
+📍 Área: Arquitectura de base de datos relacional
+
+📌 ¿Qué representa?
+Un plano lógico de cómo se organizan y conectan los datos en una app estilo Instagram.
+
+🧩 Entidades clave:
+👤 User – Registro de usuarios  
+📸 Post – Publicaciones de los usuarios  
+💬 Comment – Comentarios a publicaciones  
+❤️ Like – Reacciones a publicaciones  
+🔁 Follower – Relación entre usuarios
+
+🔗 Relaciones:
+- Un usuario puede tener muchos posts, comentarios, likes y seguidores.
+- Un post puede tener muchos comentarios y likes.
+- Los seguidores representan una relación usuario → usuario.
+
+🛠️ Herramientas usadas:
+SQLAlchemy • pipenv • ERAlchemy • Graphviz
+
+🎯 Objetivo:
+Visualizar y estructurar de forma clara los datos para construir una API sólida y escalable.
