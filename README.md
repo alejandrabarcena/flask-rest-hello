@@ -18,10 +18,14 @@ Incluye la generación automática de un **diagrama UML** para visualizar las re
 
 ## 📷 Diagrama UML generado
 
-El diagrama fue generado automáticamente con `eralchemy`.  
-📁 Archivo generado: `diagram.png`
+Diagrama generado desde el código:  
+![Diagrama UML generado](diagram.png)
 
-![Diagrama UML](diagram.png)
+Vista del entorno en VS Code mostrando el diagrama abierto:  
+![VS Code con diagrama](visualstudio-workspace.png)
+
+Repositorio completo disponible en:  
+🔗 https://github.com/alejandrabarcena/flask-rest-hello
 
 ---
 
@@ -33,13 +37,36 @@ El diagrama fue generado automáticamente con `eralchemy`.
 - pipenv
 - Graphviz
 
----
 
 ## 🛠️ Cómo ejecutar el proyecto
 
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/modelo-instagram.git
-cd modelo-instagram
+git clone https://github.com/alejandrabarcena/flask-rest-hello.git
+cd flask-rest-hello
+
+
+Instala las dependencias en un entorno virtual con pipenv:
+
+bash
+Copiar
+Editar
+pipenv install
+pipenv shell
+Genera el diagrama UML desde el archivo src/models.py:
+
+bash
+Copiar
+Editar
+pipenv run python render.py
+El archivo diagram.png se generará automáticamente en la raíz del proyecto.
+
+✅ Resultado final
+Este proyecto representa la base de datos relacional de una red social estilo Instagram, con todas las relaciones correctamente modeladas, visualizadas y documentadas.
+
+🧠 Autor
+Alejandra Bárcena
+💻 Bootcamp Full Stack Developer
+🐾 Con amor, desde el mundo de Patsy
 
